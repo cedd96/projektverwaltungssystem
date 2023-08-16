@@ -1,0 +1,22 @@
+#myListView .list-cell:empty {
+    visibility: hidden;
+}
+
+#myListView:selected:focused .list-cell:empty {
+    visibility: hidden;
+}
+
+#myListView .list-cell:filled {
+    -fx-border-top: 1;
+    -fx-border-color: black;
+}
+
+#myListView {
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#myListView .list-cell:filled:selected:focused {
+  -fx-background-color: lightgrey;
+}
